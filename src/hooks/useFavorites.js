@@ -1,11 +1,12 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import { favoritePropertyService } from "@/services/favoritePropertyService";
 
 const FAVORITES_KEY = "estate_browse_favorites";
 
 export const useFavorites = () => {
   const [favorites, setFavorites] = useState([]);
-
+  const [loading, setLoading] = useState(false);
   // Load favorites from localStorage on mount
   useEffect(() => {
     try {
@@ -27,22 +28,58 @@ export const useFavorites = () => {
     }
   }, [favorites]);
 
-  // Add property to favorites
-  const addToFavorites = (property) => {
+// Add property to favorites
+  const addToFavorites = async (property) => {
+    if (!property?.Id) {
+      toast.error("Invalid property data");
+      return;
+    }
+    
     if (isFavorite(property.Id)) {
       toast.info("Property is already in favorites");
       return;
     }
 
-    setFavorites(prev => [...prev, { ...property, isFavorite: true }]);
-    toast.success("Property added to favorites");
+    setLoading(true);
+    try {
+      const success = await favoritePropertyService.addToFavorites(property.Id);
+      if (success) {
+        setFavorites(prev => [...prev, { ...property, isFavorite: true }]);
+        toast.success("Added to favorites");
+      } else {
+        toast.error("Failed to add to favorites");
+      }
+    } catch (error) {
+      console.error("Error adding to favorites:", error);
+      toast.error("Failed to add to favorites");
+    } finally {
+      setLoading(false);
+    }
   };
 
-  // Remove property from favorites
-  const removeFromFavorites = (propertyId) => {
-    const numericId = parseInt(propertyId);
-    setFavorites(prev => prev.filter(p => p.Id !== numericId));
-    toast.success("Property removed from favorites");
+// Remove property from favorites
+  const removeFromFavorites = async (propertyId) => {
+    if (!propertyId) {
+      toast.error("Invalid property ID");
+      return;
+    }
+    
+    setLoading(true);
+    try {
+      const success = await favoritePropertyService.removeFromFavorites(propertyId);
+      if (success) {
+        const numericId = parseInt(propertyId);
+        setFavorites(prev => prev.filter(p => p.Id !== numericId));
+        toast.success("Removed from favorites");
+      } else {
+        toast.error("Failed to remove from favorites");
+      }
+    } catch (error) {
+      console.error("Error removing from favorites:", error);
+      toast.error("Failed to remove from favorites");
+    } finally {
+      setLoading(false);
+    }
   };
 
   // Toggle favorite status
@@ -66,13 +103,14 @@ export const useFavorites = () => {
     toast.success("All favorites cleared");
   };
 
-  return {
+return {
     favorites,
     addToFavorites,
     removeFromFavorites,
     toggleFavorite,
     isFavorite,
     clearFavorites,
+    loading,
     favoritesCount: favorites.length
   };
 };

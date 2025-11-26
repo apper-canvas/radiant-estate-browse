@@ -1,16 +1,19 @@
 import { useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
+import { useSelector } from "react-redux";
 import ApperIcon from "@/components/ApperIcon";
 import SearchBar from "@/components/molecules/SearchBar";
 import Button from "@/components/atoms/Button";
 import { useFavorites } from "@/hooks/useFavorites";
-
+import { useAuth } from "@/layouts/Root";
 const Header = () => {
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
+const [showMobileMenu, setShowMobileMenu] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
   const { favoritesCount } = useFavorites();
+  const { user, isAuthenticated } = useSelector(state => state.user);
+  const { logout } = useAuth();
 
   const navigation = [
     { name: "Browse Properties", href: "/" },
@@ -81,7 +84,7 @@ const Header = () => {
             <SearchBar onSearch={handleSearch} />
           </div>
 
-          {/* Desktop Actions */}
+{/* Desktop Actions */}
           <div className="hidden lg:flex items-center space-x-4">
             <Link to="/favorites" className="relative">
               <Button variant="ghost" size="sm" className="flex items-center space-x-2">
@@ -95,10 +98,31 @@ const Header = () => {
               </Button>
             </Link>
             
-            <Button size="sm" className="flex items-center space-x-2">
-              <ApperIcon name="Phone" size={16} />
-              <span>Contact</span>
-            </Button>
+            {isAuthenticated ? (
+              <div className="flex items-center space-x-2">
+                <span className="text-sm text-gray-700">
+                  Welcome, {user?.firstName || 'User'}
+                </span>
+                <Button 
+                  variant="ghost" 
+                  size="sm" 
+                  onClick={logout}
+                  className="flex items-center space-x-2"
+                >
+                  <ApperIcon name="LogOut" size={16} />
+                  <span>Logout</span>
+                </Button>
+              </div>
+            ) : (
+              <div className="flex items-center space-x-2">
+                <Link to="/login">
+                  <Button variant="ghost" size="sm">Login</Button>
+                </Link>
+                <Link to="/signup">
+                  <Button size="sm">Sign Up</Button>
+                </Link>
+              </div>
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -145,11 +169,25 @@ const Header = () => {
               </Link>
             ))}
             
-            <div className="pt-4 border-t border-gray-200">
-              <Button className="w-full flex items-center justify-center space-x-2">
-                <ApperIcon name="Phone" size={18} />
-                <span>Contact Agent</span>
-              </Button>
+<div className="pt-4 border-t border-gray-200">
+              {isAuthenticated ? (
+                <Button 
+                  onClick={logout}
+                  className="w-full flex items-center justify-center space-x-2"
+                >
+                  <ApperIcon name="LogOut" size={18} />
+                  <span>Logout</span>
+                </Button>
+              ) : (
+                <div className="space-y-2">
+                  <Link to="/login">
+                    <Button variant="ghost" className="w-full">Login</Button>
+                  </Link>
+                  <Link to="/signup">
+                    <Button className="w-full">Sign Up</Button>
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         </motion.div>
