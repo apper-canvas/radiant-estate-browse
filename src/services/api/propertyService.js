@@ -538,5 +538,3 @@ class PropertyService {
 
 // Export singleton instance
 export default new PropertyService();
-
-export default new PropertyService();
