@@ -1,0 +1,584 @@
+[
+  {
+    "Id": 1,
+    "title": "Modern Luxury Estate in Beverly Hills",
+    "description": "Stunning contemporary masterpiece featuring panoramic city views, infinity pool, and premium finishes throughout. This architectural gem offers the perfect blend of indoor-outdoor living with floor-to-ceiling windows and seamless entertaining spaces.",
+    "price": 3750000,
+    "priceType": "sale",
+    "propertyType": "house",
+    "status": "available",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "squareFeet": 4200,
+    "lotSize": 0.85,
+    "yearBuilt": 2019,
+    "address": {
+      "street": "1247 Hillcrest Drive",
+      "city": "Beverly Hills",
+      "state": "CA",
+      "zipCode": "90210",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 34.0901,
+      "lng": -118.4065
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800"
+    ],
+    "amenities": [
+      "Infinity Pool",
+      "Home Theater",
+      "Wine Cellar",
+      "Gym",
+      "Smart Home",
+      "Chef's Kitchen",
+      "Walk-in Closets",
+      "Panoramic Views"
+    ],
+    "features": [
+      "Central Air",
+      "Hardwood Floors",
+      "Granite Counters",
+      "Stainless Appliances",
+      "Fireplace",
+      "Balcony",
+      "Garden",
+      "Garage"
+    ],
+    "agentInfo": {
+      "id": "agent1",
+      "name": "Sarah Mitchell",
+      "email": "sarah@luxuryestates.com",
+      "phone": "(310) 555-0123",
+      "photo": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150",
+      "agency": "Luxury Estates Realty"
+    },
+    "dateAdded": "2024-01-15",
+    "isFavorite": false
+  },
+  {
+    "Id": 2,
+    "title": "Charming Victorian in San Francisco",
+    "description": "Beautifully restored Victorian home with original period details and modern updates. Located in the heart of Pacific Heights, this property offers classic elegance with contemporary comfort.",
+    "price": 2850000,
+    "priceType": "sale",
+    "propertyType": "house",
+    "status": "available",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2800,
+    "lotSize": 0.15,
+    "yearBuilt": 1895,
+    "address": {
+      "street": "2156 Pacific Avenue",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94115",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1598228723793-52759bba239c?w=800",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
+      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=800",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800"
+    ],
+    "amenities": [
+      "Original Details",
+      "Bay Windows",
+      "Period Fixtures",
+      "Garden",
+      "City Views",
+      "Hardwood Throughout"
+    ],
+    "features": [
+      "Central Heat",
+      "Hardwood Floors",
+      "Crown Molding",
+      "Built-ins",
+      "Fireplace",
+      "Garden",
+      "Storage"
+    ],
+    "agentInfo": {
+      "id": "agent2",
+      "name": "Michael Chen",
+      "email": "michael@sfpremier.com",
+      "phone": "(415) 555-0234",
+      "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "agency": "SF Premier Properties"
+    },
+    "dateAdded": "2024-01-18",
+    "isFavorite": false
+  },
+  {
+    "Id": 3,
+    "title": "Downtown Luxury Penthouse",
+    "description": "Spectacular penthouse with 360-degree city views from the 45th floor. Features premium finishes, private elevator, and exclusive rooftop terrace. The ultimate urban living experience.",
+    "price": 8500,
+    "priceType": "rent",
+    "propertyType": "condo",
+    "status": "available",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFeet": 2200,
+    "lotSize": 0,
+    "yearBuilt": 2021,
+    "address": {
+      "street": "888 Grand Avenue, Unit 4501",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90017",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=800"
+    ],
+    "amenities": [
+      "City Views",
+      "Private Elevator",
+      "Rooftop Terrace",
+      "Concierge",
+      "Gym",
+      "Pool",
+      "Valet Parking",
+      "Smart Home"
+    ],
+    "features": [
+      "Floor-to-ceiling Windows",
+      "Premium Finishes",
+      "Open Floor Plan",
+      "Island Kitchen",
+      "Walk-in Closets",
+      "Balcony"
+    ],
+    "agentInfo": {
+      "id": "agent3",
+      "name": "Emma Rodriguez",
+      "email": "emma@downtownliving.com",
+      "phone": "(213) 555-0345",
+      "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150",
+      "agency": "Downtown Living LA"
+    },
+    "dateAdded": "2024-01-20",
+    "isFavorite": false
+  },
+  {
+    "Id": 4,
+    "title": "Cozy Craftsman Bungalow",
+    "description": "Delightful craftsman bungalow with original character and modern conveniences. Perfect starter home with beautiful gardens and a welcoming front porch.",
+    "price": 875000,
+    "priceType": "sale",
+    "propertyType": "house",
+    "status": "pending",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1400,
+    "lotSize": 0.25,
+    "yearBuilt": 1925,
+    "address": {
+      "street": "1432 Maple Street",
+      "city": "Pasadena",
+      "state": "CA",
+      "zipCode": "91104",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 34.1478,
+      "lng": -118.1445
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800",
+      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=800"
+    ],
+    "amenities": [
+      "Front Porch",
+      "Garden",
+      "Original Details",
+      "Breakfast Nook",
+      "Vintage Fixtures"
+    ],
+    "features": [
+      "Hardwood Floors",
+      "Built-in Storage",
+      "Fireplace",
+      "Updated Kitchen",
+      "Laundry Room",
+      "Garden"
+    ],
+    "agentInfo": {
+      "id": "agent4",
+      "name": "David Thompson",
+      "email": "david@pasadenahomes.com",
+      "phone": "(626) 555-0456",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "agency": "Pasadena Home Specialists"
+    },
+    "dateAdded": "2024-01-12",
+    "isFavorite": false
+  },
+  {
+    "Id": 5,
+    "title": "Modern Oceanfront Retreat",
+    "description": "Breathtaking oceanfront property with direct beach access and panoramic ocean views. Contemporary design meets coastal living in this stunning architectural masterpiece.",
+    "price": 5200000,
+    "priceType": "sale",
+    "propertyType": "house",
+    "status": "available",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "squareFeet": 3500,
+    "lotSize": 0.45,
+    "yearBuilt": 2020,
+    "address": {
+      "street": "2847 Pacific Coast Highway",
+      "city": "Malibu",
+      "state": "CA",
+      "zipCode": "90265",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 34.0259,
+      "lng": -118.7798
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
+      "https://images.unsplash.com/photo-1600047509358-9dc75507daeb?w=800",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800",
+      "https://images.unsplash.com/photo-1600566753051-6057ac2d7da0?w=800"
+    ],
+    "amenities": [
+      "Ocean Views",
+      "Beach Access",
+      "Infinity Pool",
+      "Outdoor Kitchen",
+      "Fire Pit",
+      "Guest Suite",
+      "Wine Storage",
+      "Smart Home"
+    ],
+    "features": [
+      "Floor-to-ceiling Windows",
+      "Open Floor Plan",
+      "Gourmet Kitchen",
+      "Master Suite",
+      "Deck",
+      "Fireplace",
+      "Garage"
+    ],
+    "agentInfo": {
+      "id": "agent5",
+      "name": "Lisa Wang",
+      "email": "lisa@malibuluxury.com",
+      "phone": "(310) 555-0567",
+      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "agency": "Malibu Luxury Estates"
+    },
+    "dateAdded": "2024-01-22",
+    "isFavorite": false
+  },
+  {
+    "Id": 6,
+    "title": "Stylish Studio Apartment",
+    "description": "Modern studio in trendy neighborhood with high ceilings, exposed brick, and premium finishes. Perfect for young professionals seeking urban convenience.",
+    "price": 2800,
+    "priceType": "rent",
+    "propertyType": "condo",
+    "status": "available",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "squareFeet": 650,
+    "lotSize": 0,
+    "yearBuilt": 2018,
+    "address": {
+      "street": "445 Spring Street, Unit 812",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90013",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 34.0522,
+      "lng": -118.2500
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800"
+    ],
+    "amenities": [
+      "High Ceilings",
+      "Exposed Brick",
+      "Rooftop Deck",
+      "Gym",
+      "Laundry",
+      "Pet Friendly"
+    ],
+    "features": [
+      "Hardwood Floors",
+      "Stainless Appliances",
+      "In-unit AC",
+      "Storage"
+    ],
+    "agentInfo": {
+      "id": "agent6",
+      "name": "Ryan Foster",
+      "email": "ryan@urbanrentals.com",
+      "phone": "(213) 555-0678",
+      "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150",
+      "agency": "Urban Rentals LA"
+    },
+    "dateAdded": "2024-01-25",
+    "isFavorite": false
+  },
+  {
+    "Id": 7,
+    "title": "Historic Mediterranean Villa",
+    "description": "Magnificent Mediterranean estate on 2 acres with tennis court, guest house, and resort-style amenities. A rare opportunity to own a piece of architectural history.",
+    "price": 6850000,
+    "priceType": "sale",
+    "propertyType": "house",
+    "status": "available",
+    "bedrooms": 6,
+    "bathrooms": 7,
+    "squareFeet": 6200,
+    "lotSize": 2.1,
+    "yearBuilt": 1928,
+    "address": {
+      "street": "1875 Bella Vista Drive",
+      "city": "Montecito",
+      "state": "CA",
+      "zipCode": "93108",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 34.4208,
+      "lng": -119.6982
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800"
+    ],
+    "amenities": [
+      "Tennis Court",
+      "Guest House",
+      "Pool",
+      "Wine Cellar",
+      "Library",
+      "Formal Gardens",
+      "Fountain",
+      "Mountain Views"
+    ],
+    "features": [
+      "Tile Roofs",
+      "Arched Windows",
+      "Courtyards",
+      "Fireplaces",
+      "Beamed Ceilings",
+      "Wrought Iron",
+      "Stone Floors"
+    ],
+    "agentInfo": {
+      "id": "agent7",
+      "name": "Katherine Adams",
+      "email": "katherine@montecitoestate.com",
+      "phone": "(805) 555-0789",
+      "photo": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=150",
+      "agency": "Montecito Estate Properties"
+    },
+    "dateAdded": "2024-01-10",
+    "isFavorite": false
+  },
+  {
+    "Id": 8,
+    "title": "Contemporary Townhouse",
+    "description": "Sleek 3-story townhouse in gated community with modern amenities and low-maintenance living. Perfect for busy professionals seeking luxury and convenience.",
+    "price": 1250000,
+    "priceType": "sale",
+    "propertyType": "townhouse",
+    "status": "available",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "squareFeet": 1800,
+    "lotSize": 0,
+    "yearBuilt": 2022,
+    "address": {
+      "street": "328 Willow Lane",
+      "city": "Irvine",
+      "state": "CA",
+      "zipCode": "92602",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 33.6846,
+      "lng": -117.8265
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800"
+    ],
+    "amenities": [
+      "Gated Community",
+      "HOA Amenities",
+      "Private Patio",
+      "Garage",
+      "Storage",
+      "Low Maintenance"
+    ],
+    "features": [
+      "Open Floor Plan",
+      "Quartz Counters",
+      "Stainless Appliances",
+      "Master Suite",
+      "Walk-in Closets",
+      "Patio"
+    ],
+    "agentInfo": {
+      "id": "agent8",
+      "name": "James Park",
+      "email": "james@irvinerealtor.com",
+      "phone": "(949) 555-0890",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+      "agency": "Irvine Realty Group"
+    },
+    "dateAdded": "2024-01-28",
+    "isFavorite": false
+  },
+  {
+    "Id": 9,
+    "title": "Luxury High-Rise Condo",
+    "description": "Sophisticated high-rise living with panoramic city and ocean views. This immaculate unit features premium finishes and access to world-class amenities.",
+    "price": 6500,
+    "priceType": "rent",
+    "propertyType": "condo",
+    "status": "available",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareFeet": 1600,
+    "lotSize": 0,
+    "yearBuilt": 2019,
+    "address": {
+      "street": "1200 Wilshire Boulevard, Unit 3205",
+      "city": "Santa Monica",
+      "state": "CA",
+      "zipCode": "90401",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 34.0195,
+      "lng": -118.4912
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800"
+    ],
+    "amenities": [
+      "Ocean Views",
+      "Concierge",
+      "Rooftop Pool",
+      "Fitness Center",
+      "Spa",
+      "Valet Parking",
+      "Business Center"
+    ],
+    "features": [
+      "Floor-to-ceiling Windows",
+      "Premium Finishes",
+      "Island Kitchen",
+      "Walk-in Closets",
+      "Balcony",
+      "In-unit Laundry"
+    ],
+    "agentInfo": {
+      "id": "agent9",
+      "name": "Amanda Silva",
+      "email": "amanda@santamonicaluxury.com",
+      "phone": "(310) 555-0901",
+      "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "agency": "Santa Monica Luxury Living"
+    },
+    "dateAdded": "2024-01-30",
+    "isFavorite": false
+  },
+  {
+    "Id": 10,
+    "title": "Rustic Ranch Property",
+    "description": "Sprawling ranch on 5 acres with horse facilities, barn, and stunning mountain views. Perfect for those seeking country living with modern comforts.",
+    "price": 2250000,
+    "priceType": "sale",
+    "propertyType": "house",
+    "status": "sold",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2900,
+    "lotSize": 5.2,
+    "yearBuilt": 1985,
+    "address": {
+      "street": "4567 Canyon Road",
+      "city": "Thousand Oaks",
+      "state": "CA",
+      "zipCode": "91360",
+      "country": "USA"
+    },
+    "coordinates": {
+      "lat": 34.1706,
+      "lng": -118.8376
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800",
+      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=800",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800"
+    ],
+    "amenities": [
+      "Horse Facilities",
+      "Barn",
+      "Mountain Views",
+      "Creek",
+      "Orchard",
+      "Workshop"
+    ],
+    "features": [
+      "Vaulted Ceilings",
+      "Stone Fireplace",
+      "Country Kitchen",
+      "Wrap-around Porch",
+      "Outbuildings",
+      "Well Water"
+    ],
+    "agentInfo": {
+      "id": "agent10",
+      "name": "Robert Greene",
+      "email": "robert@countryliving.com",
+      "phone": "(805) 555-1012",
+      "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+      "agency": "Country Living Realty"
+    },
+    "dateAdded": "2024-01-08",
+    "isFavorite": false
+  }
+]
