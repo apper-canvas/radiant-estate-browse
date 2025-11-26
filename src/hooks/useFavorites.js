@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
-import { favoritePropertyService } from "@/services/api/favoritePropertyService";
+import favoritePropertyService from "@/services/api/favoritePropertyService";
 
 const FAVORITES_KEY = "estate_browse_favorites";
 
