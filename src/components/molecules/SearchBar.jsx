@@ -126,21 +126,6 @@ const SearchBar = ({ onSearch, placeholder = "Search by location, city, or prope
       )}
 
       {/* Quick search suggestions */}
-{!query && !showSuggestions && (
-        <div className="absolute top-full left-0 right-0 mt-2 z-10">
-          <div className="flex flex-wrap gap-2">
-            {["Beverly Hills", "Santa Monica", "Malibu", "Pasadena"].map((location) => (
-              <button
-                key={location}
-                onClick={() => handleSuggestionClick(location)}
-                className="px-3 py-1.5 text-xs bg-white border border-gray-200 rounded-full hover:border-primary hover:text-primary transition-colors duration-200"
-              >
-                {location}
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 };
