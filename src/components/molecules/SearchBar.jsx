@@ -127,7 +127,7 @@ const SearchBar = ({ onSearch, placeholder = "Search by location, city, or prope
 
       {/* Quick search suggestions */}
 {!query && !showSuggestions && (
-        <div className="absolute top-full left-0 right-0 mt-2 z-40">
+        <div className="absolute top-full left-0 right-0 mt-2 z-10">
           <div className="flex flex-wrap gap-2">
             {["Beverly Hills", "Santa Monica", "Malibu", "Pasadena"].map((location) => (
               <button
